@@ -22,7 +22,7 @@ export default class Register extends Component{
     }
 
     onsubmitSignin = (event) => {
-        fetch('http://localhost:3001/register', {
+        fetch('https://warm-oasis-53765.herokuapp.com/register', {
             method: 'post',
             headers: {'Content-type': 'application/json'},
             body: JSON.stringify({
